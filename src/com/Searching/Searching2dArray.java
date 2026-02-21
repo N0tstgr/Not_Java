@@ -9,7 +9,7 @@ public class Searching2dArray {
                 { 49,67,32,78},
                 {101,102,103,104 }
         };
-        int target = 99;
+        int target = 105;
         int[] ans = Search2d(arr,target);
         System.out.println(Arrays.toString(ans));
 
