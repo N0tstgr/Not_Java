@@ -19,7 +19,7 @@ public class MaxElementin2dArray {
 
     }
 
-public static int[] Max(int[][] arr, int max ){
+public static int[] Max(int[][] arr, int  ){
     int max = arr[0][0];
 //    int aimed = target;
     for(int i = 0; i<arr.length; i++){
