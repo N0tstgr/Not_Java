@@ -19,7 +19,7 @@ public class Searching2dArray {
         for(int i = 0; i<arr.length; i++){
             for(int j = 0; j<arr[i].length; j++){
             if(arr[i][j]==aimed) {
-                return arr[i][j];
+                return new arr[i][j];
               }
 
             }
