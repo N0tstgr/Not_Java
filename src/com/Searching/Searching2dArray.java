@@ -14,8 +14,8 @@ public class Searching2dArray {
         System.out.println(Arrays.toString(ans));
 
     }
-    public static int[] Search2d(int[][] arr, int target){
-         int aimed = target;
+    public static int[] Search2d(int[][] arr){
+         int aimed;
         for(int i = 0; i<arr.length; i++){
             for(int j = 0; j<arr[i].length; j++){
             if(arr[i][j]==aimed) {
