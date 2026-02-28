@@ -13,16 +13,16 @@ public class Max2dArray {
                 };
 //        int target = 105;
                 int[] ans = Max(arr);
-                System.out.println(ans);
+                System.out.println(Arrays.toString(ans));
 
             }
 
     public static int[] Max(int[][] arr ){
-        int max = arr[0][0];
+        int max = Integer.MIN_VALUE;
 //    int aimed = target;
         for(int i = 0; i<arr.length; i++){
             for(int j = 0; j<arr[i].length; j++){
-                if(max<arr[i][i]) {
+                if(arr[i][j]>max) {
                     max = arr[i][j];
 
                 }

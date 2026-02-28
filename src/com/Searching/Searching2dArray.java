@@ -9,19 +9,20 @@ public class Searching2dArray {
                 { 49,67,32,78},
                 {101,102,103,104 }
         };
-        int target = 105;
+        int target = 101;
         int[] ans = Search2d(arr,target);
         System.out.println(Arrays.toString(ans));
 
     }
-    public static int[] Search2d(int[][] arr){
-         int aimed;
+    public static int[] Search2d(int[][] arr, int target){
+         int aimed = target;
         for(int i = 0; i<arr.length; i++){
             for(int j = 0; j<arr[i].length; j++){
             if(arr[i][j]==aimed) {
-                return new arr[i][j];
-              }
+                return new int []{i,j};
 
+
+            }
             }
         }
         return new int[]{-1,-1};
