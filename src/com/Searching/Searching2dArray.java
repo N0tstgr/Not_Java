@@ -12,6 +12,7 @@ public class Searching2dArray {
         int target = 101;
         int[] ans = Search2d(arr,target);
         System.out.println(Arrays.toString(ans));
+        System.out.println(Integer.MIN_VALUE);
 
     }
     public static int[] Search2d(int[][] arr, int target){
